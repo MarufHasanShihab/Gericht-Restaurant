@@ -41,7 +41,7 @@ const Navbar = () => {
         </a>
       </div>
       <div className="app__navbar-smallscreen">
-        <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
+        <GiHamburgerMenu color="#fff" fontSize={27} cursor={"pointer"} onClick={() => setToggleMenu(true)} />
         {toggleMenu && <div className="app__navbar-smallscreen-overlay flex__center slide__bottom">
           <MdOutlineRestaurantMenu
             className="overlay__close"
